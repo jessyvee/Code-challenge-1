@@ -1,0 +1,50 @@
+
+<!-- The html document for the code challenge -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Code Challenge - Week 1</title>
+</head>
+<body>
+<!-- Code challenge 1 section -->
+
+<section id="studentGradeGenerator">
+    <h3>Student Grade Generator</h3>
+    <label for="marks">Enter Marks  </label>
+    <input type="text" id="marks" >
+    <button onclick="gradeGenerator ()"> Submit</button>
+    <p><span id="gradeOutput"></span></p>
+    <br> <br>
+</section>
+<!-- Code challenge 2 section -->
+<section id="speedDetector">
+    <h3>Speed Detector</h3>
+    <label for="speed">Enter Speed  </label>  
+    <input type="number" id="speed">
+    <button onclick="speedDetector ()">Submit</button>
+    <p><span id="speedOutput"></span></p>  
+    <br><br>
+</section>
+<!-- Code challenge 3 section -->
+<section id="netSalaryCalculator">
+    <h3>Net Salary Calculator</h3>
+    <label for="basicSalary">Enter Basic Salary</label>
+    <input type="number" id="basicSalary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="benefits">Enter Benefits</label>
+    <input type="number" id="benefits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="calculateSalary ()"> Calculate Net Salary</button> <br>
+    <p>Gross Salary: <span id="grossSalary"></span></p>
+    <p>NSSF: <span id="nssfContribution"></span></p>
+    <p>NHIF: <span id="nhif"></span></p>
+    <p>Payee: <span id="payee"></span></p>
+    <p>Net Salary: <span id="netSalary"></span></p>
+   
+</section>
+    
+</body>
+<script src="./js/index.js"></script>
+</html>
